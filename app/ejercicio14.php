@@ -11,8 +11,8 @@ Reutilizando el código anterior, crear la función esImpar.
 
 $numero = 16;
 
-echo $numero . "\n";
-echo "Es par?: " . (esPar($numero) ? "si" : "no") . "\n";
+echo $numero . "<br>";
+echo "Es par?: " . (esPar($numero) ? "si" : "no") . "<br>";
 echo "Es impar?: " . (esImpar($numero) ? "si" : "no");
 
 function esPar($num){
